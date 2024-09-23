@@ -1,0 +1,17 @@
+{
+    "config": {
+        "strictHostKeyChecking": "no",
+        "gitPasswordPath": "",
+        "format": "json",
+        "dir": "/home/rundeck/projects/Production/ScmImport",
+        "branch": "main",
+        "url": "http://gitea:3000/root/rundeck-jobs-as-code.git",
+        "filePattern": ".*\\.json",
+        "useFilePattern": "true",
+        "pathTemplate": "${job.id}.${config.format}",
+        "importUuidBehavior": "preserve",
+        "sshPrivateKeyPath": "",
+        "fetchAutomatically": "true",
+        "pullAutomatically": "false"
+    }
+}
